@@ -32,7 +32,7 @@ const testimonials = [
     {
         quote:
             ['● Led a team of 2 student interns in developing and optimizing data engineering solutions, providing mentorship and guidance to new team members, fostering their professional growth and development in data engineering practices.'],
-        name: "Technical Support, Guangxi Normal University, Guilin",
+        name: "Data Engineer Technical Lead, Guangxi Normal University, Guilin",
         title: "Jan, 2017 - May, 2019",
     }
 ];
