@@ -6,34 +6,34 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewrter-effect";
 const testimonials = [
     {
         quote:
-            ['● Led a volunteering dashboard project aimed at highlighting the scale and impact of the volunteer network, showcasing key demographics and metrics to attract more volunteers and secure additional funding and support. '],
-        name: "Data Engineer, Glocal, Vancouver",
+            ['●	Design and build reliable data artifacts to support business overviews of volunteering networks.',
+             '●	Enable end-to-end trending and monitoring of network health data through streaming with Azure cloud.',
+             '●	Streamline data processing via Airflow pipelines with Spark to handle PB-level datasets.'],
+        name: "Sr. Data Engineer, Analytics, Glocal Foundation, Inc, Vancouver",
         title: "May, 2024 - Present",
     },
     {
         quote:
-            ['● Designed and managed the database architecture for a dating app, creating 30+ well-structured table schemas, achieving high query efficiency and system performance.'],
-        name: "Data Engineer, Defend, Vancouver",
-        title: "May, 2023 - May, 2024",
+            ['●	Lead data modelling and data artifacts development collaborating with data scientists and engineering.',
+             '●	Drive and implement measurement framework of pipeline performance and warehouse data quality.'],
+        name: "Data Engineer II, Defend, Vancouver",
+        title: "2023 - 2024",
     },
     {
         quote:
-            ['● Led a team of 3 data engineers and 3 projects in designing and implementing scalable data solutions to support various business functions. Discussed customer needs and documented their requirements for projects, ensuring all data solutions met customer expectations.'],
-        name: "Data Engineer Team Lead, Rainer Technology, Beijing",
-        title: "Oct, 2019 - Jun, 2021",
+            ['●	Optimize data transformation and ingestion flow via stored procedures development in DB2.',
+             '●	Automate data loading and reporting processes through Shell scripts resulting in 1 FTE saving.',
+             '●	Enhance scalability and reduce maintenance costs by designing new data models in Azure cloud.'],
+        name: "Data Engineer I, Rainer Technology, Beijing",
+        title: "2019 - 2023",
     },
     {
         quote:
-            ['● Managed BI dashboards showcase government key metrics, supporting management adjustment.',
-             '● Established data warehouses to ensure data consistency from business systems to dashboards, meeting government data standards.'],
+            ['● Conceptualize measurement framework and maintain dashboards of key metrics on business health.',
+             '●	Established MySQL data warehouses ensuring data consistency and reliability.',
+             '●	Improved backfilling capabilities of datasets through extensible store procedure development.'],
         name: "BI Engineer, Huaxia Diantong IT, Beijing",
-        title: "Jun, 2019 - Oct, 2019",
-    },
-    {
-        quote:
-            ['● Led a team of 2 student interns in developing and optimizing data engineering solutions, providing mentorship and guidance to new team members, fostering their professional growth and development in data engineering practices.'],
-        name: "Data Engineer Technical Lead, Guangxi Normal University, Guilin",
-        title: "Jan, 2017 - May, 2019",
+        title: "2019",
     }
 ];
 
