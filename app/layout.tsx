@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://de-portfolio.vercel.app/", 
     images: [
       {
-        url: "https://de-portfolio.vercel.app/avatar.png", 
+        url: "https://de-portfolio.vercel.app/avatar_resized_100x70.png", 
         width: 50,
         height: 40,
         alt: "Vincent Liu's Portfolio Cover",
