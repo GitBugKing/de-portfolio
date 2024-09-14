@@ -6,34 +6,32 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewrter-effect";
 const testimonials = [
     {
         quote:
-            ['●	Design and build reliable data artifacts to support business overviews of volunteering networks.',
-             '●	Enable end-to-end trending and monitoring of network health data through streaming with Azure cloud.',
-             '●	Streamline data processing via Airflow pipelines with Spark to handle PB-level datasets.'],
-        name: "Data Engineer, Analytics, Glocal Foundation, Inc, Vancouver",
-        title: "May, 2024 - Present",
+            ['●	Design and build reliable data artifacts to support business overviews of volunteering networks',
+             '●	Leveraged data to drive insights that support clinical research, streamline the process of analyzing patient data and medication usage, and enable decision-makers to understand trends and outcomes, ultimately improving patient care'],
+        title: "Sr. Data Engineer, Analytics",
+        location: "Vancouver",
     },
     {
         quote:
-            ['●	Lead data modelling and data artifacts development collaborating with data scientists and engineering.',
-             '●	Drive and implement measurement framework of pipeline performance and warehouse data quality.'],
-        name: "Database Administrator, Defend, Vancouver",
-        title: "2023 - 2024",
+            ['●	Lead data modelling and data artifacts development collaborating with data scientists and engineerin',
+             '●	Designed a Customer Scoring System by segmenting and tagging customers using the RFM model, addressing data skewness through various pre-processing techniques such as log transformation, and feature engineering to enhance segmentation accuracy and improve system performance'],
+        title: "Data Engineer, Analytics II",
+        location: "Vancouver",
     },
     {
         quote:
-            ['●	Optimize data transformation and ingestion flow via stored procedures development in DB2.',
-             '●	Automate data loading and reporting processes through Shell scripts resulting in 1 FTE saving.',
-             '●	Enhance scalability and reduce maintenance costs by designing new data models in Azure cloud.'],
-        name: "Data Engineer Team Lead, Rainer Technology, Beijing",
-        title: "2019 - 2023",
+            ['●	Achieved banking digital transformation and data ETL pipeline via stored procedures development in DB2',
+             '●	Optimized 30+ index in an existing 2GB+ DB2 database, improving system query performance by 70%',
+             '●	Automate data loading and logging processes through Shell scripts resulting in 1 FTE saving'],
+        title: "Data Engineer, Analytics I",
+        location: "Beijing",
     },
     {
         quote:
-            ['● Conceptualize measurement framework and maintain dashboards of key metrics on business health.',
-             '●	Established MySQL data warehouses ensuring data consistency and reliability.',
-             '●	Improved backfilling capabilities of datasets through extensible store procedure development.'],
-        name: "BI Engineer, Huaxia Diantong IT, Beijing",
-        title: "2019",
+            ['● Conceptualize measurement framework and maintain dashboards of key metrics on business health',
+             '●	Established MySQL data warehouses ensuring data consistency and reliability, controlled SQL code version by Git'],
+        title: "BI Engineer",
+        location: "Beijing",
     }
 ];
 
@@ -47,7 +45,7 @@ const ExperienceCard = () => {
         >
             <TypewriterEffectSmooth words={words} />
             <p className="text-neutral-500 text-sm w-1/2 mb-4 mt-8 dark:text-neutral-300">
-                I have over 7 years of professional experience as a data engineer, with expertise in building data pipelines and data visualization across the Financial, Government, Education, Entertainment, and Consumer industries.
+                I have over 5 years of professional experience as a data engineer, with expertise in building data pipelines and data visualization across the Financial, Government, Education, Healthcare, and Marketing industries.
             </p>
             <InfiniteMovingCards
                 items={testimonials}

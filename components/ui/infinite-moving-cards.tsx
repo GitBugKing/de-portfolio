@@ -12,8 +12,8 @@ export const InfiniteMovingCards = ({
 }: {
     items: {
         quote: string[];
-        name: string;
         title: string;
+        location: string;
     }[];
     direction?: "left" | "right";
     speed?: "fast" | "normal" | "slow";
@@ -92,7 +92,7 @@ export const InfiniteMovingCards = ({
                             background:
                                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
                         }}
-                        key={item.name}
+                        key={item.title}
                     >
                         <blockquote>
                             <div
@@ -102,7 +102,7 @@ export const InfiniteMovingCards = ({
                             <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
                                 {item.quote.map((ele) => {
                                     return (
-                                        <div key={item.name}>
+                                        <div key={item.title}>
                                             {ele}
                                         </div>
                                     )
@@ -111,10 +111,10 @@ export const InfiniteMovingCards = ({
                             <div className="relative z-20 mt-6 flex flex-row items-center">
                                 <span className="flex flex-col gap-1">
                                     <span className=" text-sm leading-[1.6] font-normal">
-                                        {item.name}
+                                        {item.title}
                                     </span>
                                     <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                                        {item.title}
+                                        {item.location}
                                     </span>
                                 </span>
                             </div>

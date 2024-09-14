@@ -10,16 +10,16 @@ const SkillCard = () => {
             image: "/Apache Airflow.png"
         }, {
             id: 2,
-            name: "Azure SQL Database",
+            name: "SQL",
             image: "/Azure SQL Database.png"
         }, {
             id: 3,
-            name: "AWS",
-            image: "/AWS.png"
+            name: "Git",
+            image: "/Git.png"
         }, {
             id: 4,
-            name: "Azure",
-            image: "/Azure.png"
+            name: "Google Cloud",
+            image: "/Google Cloud.png"
         }, {
             id: 5,
             name: "MySQL",
@@ -28,6 +28,10 @@ const SkillCard = () => {
             id: 6,
             name: "sass",
             image: "/sass.png"
+        }, {
+            id: 7,
+            name: "IBM SPSS",
+            image: "/IBM SPSS.png"
         }
     ];
     const skills2 = [
@@ -53,8 +57,8 @@ const SkillCard = () => {
             image: "/power-bi.png"
         }, {
             id: 6,
-            name: "MongoDB",
-            image: "/MongoDB.png"
+            name: "Apache Zookeeper",
+            image: "/Apache Zookeeper.png"
         }, {
             id: 7,
             name: "Apache Hadoop",
@@ -63,6 +67,10 @@ const SkillCard = () => {
             id: 8,
             name: "Apache Spark",
             image: "/Apache Spark.png"
+        }, {
+            id: 9,
+            name: "Apache HBase",
+            image: "/HBase_white.png"
         }
     ];
 
