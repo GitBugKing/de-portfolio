@@ -8,14 +8,16 @@ const testimonials = [
         quote:
             ['●	Design and build reliable data artifacts to support business overviews of volunteering networks',
              '●	Leveraged data to drive insights that support clinical research, streamline the process of analyzing patient data and medication usage, and enable decision-makers to understand trends and outcomes, ultimately improving patient care'],
-        title: "Sr. Data Engineer, Analytics",
+        // title: "Sr. Data Engineer, Analytics",
+        title: "Data Engineer FreeLancer",
         location: "Vancouver",
     },
     {
         quote:
             ['●	Lead data modelling and data artifacts development collaborating with data scientists and engineerin',
              '●	Designed a Customer Scoring System by segmenting and tagging customers using the RFM model, addressing data skewness through various pre-processing techniques such as log transformation, and feature engineering to enhance segmentation accuracy and improve system performance'],
-        title: "Data Engineer, Analytics II",
+        // title: "Data Engineer, Analytics II",
+        title: "Database Administrator,",
         location: "Vancouver",
     },
     {
@@ -23,7 +25,8 @@ const testimonials = [
             ['●	Achieved banking digital transformation and data ETL pipeline via stored procedures development in DB2',
              '●	Optimized 30+ index in an existing 2GB+ DB2 database, improving system query performance by 70%',
              '●	Automate data loading and logging processes through Shell scripts resulting in 1 FTE saving'],
-        title: "Data Engineer, Analytics I",
+        // title: "Data Engineer, Analytics I",
+        title: "Data Engineer Team Lead",
         location: "Beijing",
     },
     {
