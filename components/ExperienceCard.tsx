@@ -6,18 +6,16 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewrter-effect";
 const testimonials = [
     {
         quote:
-            ['●	Design and build reliable data artifacts to support business overviews of volunteering networks',
-             '●	Leveraged data to drive insights that support clinical research, streamline the process of analyzing patient data and medication usage, and enable decision-makers to understand trends and outcomes, ultimately improving patient care'],
-        // title: "Sr. Data Engineer, Analytics",
-        title: "Data Engineer FreeLancer",
+            ['●	Design and build reliable data artifacts to support business overviews of organization Human Resource system',
+             '●	Designed partition keys to optimize the ETL process and built a data lake on GCS bucket using Delta Lake to manage HR data, including demographic, geolocation and PII. Ensured ACID Transactions, leveraged highly compressed Parquet format, and reduced storage costs by over $2,000 annually'],
+        title: "Sr. Data Engineer, Analytics",
         location: "Vancouver",
     },
     {
         quote:
-            ['●	Lead data modelling and data artifacts development collaborating with data scientists and engineerin',
+            ['●	Designed and implemented large-scale data pipelines and data warehousing solutions using GCP Big Query for data storage and analysis, PySpark for data processing, and Airflow for orchestration, enabling Defend to gain insights into user behaviour',
              '●	Designed a Customer Scoring System by segmenting and tagging customers using the RFM model, addressing data skewness through various pre-processing techniques such as log transformation, and feature engineering to enhance segmentation accuracy and improve system performance'],
-        // title: "Data Engineer, Analytics II",
-        title: "Database Administrator,",
+        title: "Data Engineer, Analytics II",
         location: "Vancouver",
     },
     {
@@ -25,8 +23,7 @@ const testimonials = [
             ['●	Achieved banking digital transformation and data ETL pipeline via stored procedures development in DB2',
              '●	Optimized 30+ index in an existing 2GB+ DB2 database, improving system query performance by 70%',
              '●	Automate data loading and logging processes through Shell scripts resulting in 1 FTE saving'],
-        // title: "Data Engineer, Analytics I",
-        title: "Data Engineer Team Lead",
+        title: "Data Engineer, Analytics I",
         location: "Beijing",
     },
     {
